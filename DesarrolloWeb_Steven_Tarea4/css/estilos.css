@@ -1,0 +1,19 @@
+/*3. Crea un selector de etiqueta y asignarle de ancho 200px.*/
+textarea{
+    width: 200px;
+}
+/*4. Asigna al cuerpo del html body un margen a todos los lados de 20px y tipo de fuente Verdana.*/
+body{
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*5. Crea un selector de input cuyo atributo name sea email y asignarle el color de fondo #eeeeee*/
+input[name="email"]{
+    background-color: #eeeeee;
+}
+
+/*6. Asigna la fuente Tahoma a todos los párrafos y label con un selector multiple p, label{...}.*/
+
+p, label{
+    font-family: Tahoma, Geneva, sans-serif;
+}
